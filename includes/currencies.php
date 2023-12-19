@@ -89,9 +89,17 @@
 			'name' => __('South African Rand (R)', 'paid-memberships-pro' ),
 			'symbol' => 'R ',
 			'position' => 'left'
-		),			
+		),
+		'JPY' => array(
+			'name' => __('Japanese Yen (&yen;)', 'paid-memberships-pro' ),
+			'symbol' => '&yen;',
+			'position' => 'left',
+			'decimals' => 0,
+			),
 		'KRW' => array(
-			'name' => __('South Korean Won', 'paid-memberships-pro' ),
+			'name' => __('South Korean Won (&#8361;)', 'paid-memberships-pro' ),
+			'symbol' => '&#8361;',
+			'position' => 'left',
 			'decimals' => 0,
 			),
 		'SEK' => __('Swedish Krona', 'paid-memberships-pro' ),
