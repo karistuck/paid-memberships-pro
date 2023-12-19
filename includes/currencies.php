@@ -91,7 +91,9 @@
 			'position' => 'left'
 		),			
 		'KRW' => array(
-			'name' => __('South Korean Won', 'paid-memberships-pro' ),
+			'name' => __('South Korean Won (&#8361;)', 'paid-memberships-pro' ),
+			'symbol' => '&#8361;',
+			'position' => 'left',
 			'decimals' => 0,
 			),
 		'SEK' => __('Swedish Krona', 'paid-memberships-pro' ),
